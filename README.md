@@ -4,17 +4,20 @@ You can click the Preview link to take a look at your changes.
 --->
 
 
-## :man_technologist: About Me
+## Hi there 👋, i'm Gris
+if you are here that means you happened to find your way to my profile for a reason, 
+well then how about i use this medium to tell you guys a little about myself. 
 
-### Hi there 👋, i'm Gris
+<br/>
 
 
-
-
+### :man_technologist: About Me
 - 🔭 I’m currently working on this page.
 - 
 
 
+<br/>
+<br/>
 
 
 
