@@ -15,7 +15,7 @@ Skills: PYTHON
 
 
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/apiGris1109)](https://github.com/anuraghazra/github-readme-stats)
+[![Gris's GitHub stats](https://github-readme-stats.vercel.app/apiGris1109)](https://github.com/Gris1109/github-readme-stats)
 
 Contact Me:
 
