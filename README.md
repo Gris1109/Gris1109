@@ -12,8 +12,13 @@ well then how about i use this medium to tell you guys a little about myself.
 
 
 ### :man_technologist: About Me
+- My name is Obiana ifeanyi .C.
+- A self-taugh aspirant developer with a strong drive towards learning new things and developing fun projects.
+- my hobbies includes watchinging anime, playing video games, cleaning and hanging out with friends
+- i'm currently opened to collaboration and knowledge sharing  
+-  
 - 🔭 I’m currently working on this page.
-- 
+
 
 
 <br/>
