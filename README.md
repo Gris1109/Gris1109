@@ -13,6 +13,24 @@ Skills: PYTHON
 
 - 🔭 I’m currently working on this page. 
 
+# Languages & Tools 👨‍💻 🛠:
+</br>
+
+<p align="center">
+<!-- For more icons please follow  https://github.com/MikeCodesDotNET/ColoredBadges -->
+<img src="https://github.com/Gris1109/Gris1109/master/assets/icons/python.png" alt="python" width="120" hight="50">
+<img src="https://github.com/Gris1109/Gris1109/master/assets/icons/bash.png" alt="bash" width="100" hight="50">
+<img src="https://github.com/Gris1109/Gris1109/blob/master/assets/icons/visualstudio_code.png" alt="visualstudio_code" width="240" hight="50">
+</br>
+<img src="https://github.com/Gris1109/Gris1109/blob/master/assets/icons/pc.png" alt="pc" width="100" hight="50">
+<img src="https://github.com/Gris1109/Gris1109/blob/master/assets/icons/edge.png" alt="edge" width="100" hight="50">
+</p>
+</br>
+</br>
+</br>
+
+
+
 
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/GRIS1109)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/reddit.svg' alt='Reddit' height='40'>](https://www.reddit.com/user/-Gris)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/gmail.svg' alt='gmail' height='40'>](ifeanyiobiana@gmail.com)  
 
