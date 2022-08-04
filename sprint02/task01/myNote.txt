@@ -1,0 +1,97 @@
+# NOTE ON HOW TO HANDLE A PYTHON KeyError WHEN YOU SEE IT ASSIOCIATED A DICTIONARY PROBLEM 
+
+When you encounter a KeyError, there are a few standard ways to handle it.
+Depending on your use case, some of these solutions might be better than others. 
+The ultimate goal is to stop unexpected KeyError exceptions from being raised.
+
+# The Usual Solution: .get()
+If the KeyError is raised from a failed dictionary key lookup in your own code, 
+you can use .get() to return either the value found at the specified key or a default value.
+
+Much like the age retrieval example from before, 
+the following example shows a better way to get the age from the dictionary using the key provided at the prompt:
+
+
+
+the example shows how you can get the age value from ages using .get().
+This will result in the age variable having the age value found in the dictionary for the key provided or a default value, None in this case.
+
+This time, you will not get a KeyError exception raised because of the use of the safer .get() method to get the age rather than attempting to access the key directly:
+
+
+SYNTAX:
+dict.get(key, default = none)
+
+
+PARAMETERS:
+* keys: this is the key to be searched in the dictionary.
+
+* default: this is the value to be returned in the case key does not exist in the dictionary.
+
+
+# NOTE: for example on get() fn, kindly check the function COOKBOOK In this folder.
+
+
+# The Rare Solution: Checking for Keys
+There are times when you need to determine the existence of a key in a dictionary. 
+In these cases, using .get() might not give you the correct information. 
+Getting a None returned from a call to .get() could mean that the key wasn’t found or that the value found at the key in the dictionary is actually None.
+
+With a dictionary or dictionary-like object, you can use the "IN" operator to determine whether a key is in the mapping. 
+This operator will return a Boolean (True or False) value indicating whether the key is found in the dictionary.
+
+
+# EXAMPLE:
+
+# word_dict = {"hello": 58, "at": 23, "text": 43, "this": 19}
+# value = 43
+
+# if value in word_dict.values():
+    # print ("value exist in the dictionary")
+
+# else:
+    # print ("value does not exist in the dictionary")
+
+
+Here, there is a difference in checking to see if the error key exists in the response and getting a default value from the key.
+This is a rare case where what you are actually looking for is if the key is in the dictionary and not what the value at that key is.
+
+# EXAMPLE:
+
+# section =  { 'ingredients': ['salmon', 'tomatoes', 'spinach'],
+#              'prep time': 15,
+#              'directions': 'Cut tomatoes. Mix all ingredients together.' }
+
+
+# if 'directions' in section:
+    # print (section['directions'])
+
+# else:
+    # print ("there is no directions key in section")
+
+.........
+
+
+# The General Solution: try except
+As with any exception, you can always use the try except block to isolate the potential exception-raising code and provide a backup solution.
+
+You can use the try except block in a similar example as before, 
+but this time providing a default message to be printed should a KeyError be raised in the normal case:
+
+# EXAMPLE:
+
+# ages = {'Jim': 30, 'Pam': 28, 'Kevin': 33}
+# person = 'Gris'
+
+# try:
+    # if person in ages.keys():
+        # print (ages['Gris'])
+
+# except KeyError:
+    # print(f"{person} does not exist as a key in the dictionary")
+
+Here, you can see the normal case in the try block  
+The backup case is in the except block, where if a KeyError is raised in the normal case, then the backup case is to print a different message.
+
+The try except block solution is also a great solution for other places that might not support .get() or the "IN" operator. 
+It is also the best solution if the KeyError is being raised from another person’s code.
