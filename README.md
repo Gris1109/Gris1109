@@ -12,3 +12,5 @@ Skills: PYTHON
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=GRIS1109)](https://github.com/anuraghazra/github-readme-stats)
 
+<img height="142" src="https://github-readme-stats.vercel.app/api?username=Gris1109&count_private=true&theme=dracula&cache_seconds=1800&border_radius=10&hide_rank=true"/>
+   
