@@ -13,6 +13,6 @@ Skills: PYTHON
 
 
 
-<img height=150 src="https://github-readme-stats.vercel.app/api?username=Gris1109&count_private=true&theme=slateorange&show_icons=true" /> [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=GRIS1109)](https://github.com/Gris1109/github-readme-stats)
+<img height=150 src="https://github-readme-stats.vercel.app/api?username=Gris1109&include_all_commits=true&count_private=true&theme=slateorange&show_icons=true" /> [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=GRIS1109)](https://github.com/Gris1109/github-readme-stats)
    
  
